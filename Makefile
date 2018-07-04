@@ -35,7 +35,7 @@ build: respawn
 	$(CC) -I. $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) svcdown.c -o svcdown
 
 install:
-	install -D -m755 poweroff $(BINDIR)/respawn
+	install -D -m755 respawn $(BINDIR)/respawn
 	install -D -m755 poweroff $(BINDIR)/poweroff
 	install -D -m755 reboot $(BINDIR)/reboot
 	install -D -m755 halt $(BINDIR)/halt
