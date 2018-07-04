@@ -21,5 +21,5 @@ int main()
 	setpgid(0, 0);
 	return execve("/etc/rc", (char *[]){ "rc", 0 }, (char *[]){ 0 });
 
-	system("/bin/svcboot");
+	system("/bin/sh -c '/bin/respawn /bin/svcboot' &>/dev/null &");
 }

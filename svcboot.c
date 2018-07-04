@@ -2,5 +2,5 @@
 #include <stdlib.h>
 
 int main() {
-	system("/var/svc/*/svc start");
+	system("/var/svc/*/run start");
 }
