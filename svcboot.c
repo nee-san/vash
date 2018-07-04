@@ -3,4 +3,5 @@
 
 int main() {
 	system("/var/svc/*/run start");
+	return 1;
 }
