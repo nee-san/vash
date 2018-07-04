@@ -2,6 +2,6 @@
 #include <stdlib.h>
 
 int sysdown(void) {
-	system("svcdown");
+	system("/bin/svcdown");
 	system("/etc/shutdown");
 }
