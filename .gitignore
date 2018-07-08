@@ -5,3 +5,4 @@ suspend
 init
 svcboot
 svcdown
+respawn
